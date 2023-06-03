@@ -9,7 +9,7 @@ html{
 #arriba
 
 
-.contenedor{
+.container-fluid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -163,7 +163,7 @@ p{
     justify-content: center;
     position: absolute;
     width: 100%;
-    background-color: rgb(231, 165, 231);
+    /*background-color: rgb(231, 165, 231);*/
     align-items: center;
     top: 150px;
     bottom: 500px; 
@@ -291,7 +291,7 @@ height:50%;
     /*width: 100%;*/
 }
 .fondo{
-    background-color: rgb(146, 167, 180);
+    /*background-color: rgb(146, 167, 180);*/
     position: center;
     font-size: 10px;
 }
@@ -315,14 +315,14 @@ height:50%;
     color: rgb(34, 15, 116);
 
 } 
-.footer{
+/*.footer{
     background-color: white;
-}
+}*/
 .tituloprincipal{ display:none;}
 .letraAzul{font-size: 15px;}
-.posicion{ display:none;}
+
 }
-.contenedor{
+/*.container-fluid{
     display:grid;
     grid-template-columns:1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -330,7 +330,7 @@ height:50%;
     "header header"
     "main main"
     "footer footer";
-}
+}*/
 .fondo{
     grid-area: header;
     position:center;
@@ -344,14 +344,15 @@ height:50%;
 }
 .footer{
     grid-area: footer;
-    margin-top: 0px;
-    margin-bottom: 0px;
     width: 100%;
 
 }
 .container{
     height: 50%;
     width: 100%;
+}
+.posicion{
+    position: center;
 }
 
 
