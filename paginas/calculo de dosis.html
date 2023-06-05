@@ -32,7 +32,7 @@
                <li><a href="paginas/Cálculo de dosis.html">ARMA TU PASTILLERO</a></li>
                <li><a href="../paginas/Servicios.html">OTROS SERVICIOS FARMACÉUTICOS</a></li>
                <li><a href="../paginas/quien soy.html">MI PROYECTO</a></li>
-               <li><a href="../paginas/contacto.html">CONTACTO</a></li>
+               <li><a href="../paginas/contacto.html">REGISTRARSE</a></li>
             </ul>
 
        </nav>
@@ -47,16 +47,19 @@
         </section>
 
     
-    
-<!--PASTILLERO-->
-        <div>
 
-            <form action="">
+      <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 ">
                     <label for="droga">Droga o Principio activo</label>
                     <input type="text" name="droga" id="droga">
                 <br>
                     <label for="miligramos">Cantidad por comprimido en mg</label>
                     <input type="number" name="miligramos" id="miligramos">
+                <br>
+                    <label for="comprimido">Cantidad de comprimidos por toma</label>
+                    <input type="text" name="comprimido" id="comprimido">
                 <br>
                     <label for="hora">¿A qué hora debe tomar su medicación?</label>
                     <input type="time" name="hora" id="hora">
@@ -74,7 +77,25 @@
                 <input type="reset" value="Resetea todo">
                 <input type="submit" value="Enviar">
             </form>
+            </div>
+            
+            <div class="col-sm-6">Pastillero
+                <div class="row">
+                <button type="button" class="btn btn-primary">LUNES</button>
+                <button type="button" class="btn btn-secondary">MARTES</button>
+                <button type="button" class="btn btn-success">MIÉRCOLES</button>
+                <button type="button" class="btn btn-danger">JUEVES</button>
+                <button type="button" class="btn btn-warning">VIERNES</button>
+                <button type="button" class="btn btn-info">SÁBADO</button>
+                <button type="button" class="btn btn-light">DOMINGO</button>
+
+
+
+            
+            </div>
+            
         </div>
+      </section>
     </main>
     <footer class="footer row">
         <div class="redes">
