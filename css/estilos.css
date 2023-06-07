@@ -137,8 +137,6 @@ h3{
     right: 100px;
     bottom: auto;
     left: 5px;
-
-
 }
 ul li{
     display: inline-flex;
@@ -167,8 +165,6 @@ p{
     align-items: center;
     top: 150px;
     bottom: 500px; 
-    
-
 }
 .text{
     display: flex;
@@ -320,6 +316,9 @@ height:50%;
 }*/
 .tituloprincipal{ display:none;}
 .letraAzul{font-size: 15px;}
+.cabeza{
+    position: center;
+}
 
 }
 /*.container-fluid{

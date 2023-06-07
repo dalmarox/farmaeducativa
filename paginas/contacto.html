@@ -46,34 +46,72 @@
       </nav>
     </header>
     <main class="position mainpastillero">
-      
-      <form action="">
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre" />
-        <br />
-        <label for="email">Correo electrónico</label>
-        <input type="email" name="email" id="email" />
-        <br />
-
-        <label for="pwd">Contraseña</label>
-        <input type="password" name="pwd" id="pwd" />
-
-        <div>
-          <label for="mensaje">Deja tu consulta</label>
-          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+      <div class="row g-3">
+        <h3>Regístrese aquí</h3>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+        </div>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
         </div>
       
-      <div>
+        <form class="row g-3">
+        <div class="col-sm-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
       
-       <label for="pais" class="pais">Pais</label>
-       <select name="pais" id="pais" class="pais">
-        <option value="ARG">Argentina</option>
-        <option value="URU">Uruguay</option>
-        <option value="Chi">Chile</option>
-        <option value="Parag">Paraguay</option>
-        <option value="BOLI">Bolivia</option>
-      </div> 
-      </br>
+        </div>
+        
+        
+        <div class="col-sm-6">
+          <label for="inputAddress" class="form-label">Dirección</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="">
+        </div>
+      
+        <div class="col-sm-6">
+          <label for="inputCity" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-sm-4">
+          <label for="inputState" class="form-label">País</label>
+          <select id="inputState" class="form-select">
+            <option selected>Argentina</option>
+            <option>Bolivia</option>
+            <option>Brazil</option>
+            <option>Chile</option>
+            <option>Paraguay</option>
+            <option>Uruguay</option>
+          </select>
+        </div>
+        <div class="col-sm-2">
+          <label for="inputZip" class="form-label">Código postal</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        
+        <div class="col-ms-6">
+          <label for="inputPassword4" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+          <div class="col-sm-6">
+            <label for="mensaje">Deja tu consulta</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+          </div>
+
+        <div class="col-sm-12">
+          <button type="submit" class="btn btn-primary">Regístrate</button>
+          
+      </div>
+    
+
+        </form>
+
+
+
+
+
+
+      
+      
     
       <input type="button" value="funcionar con JS" />
       <input type="reset" value="Resetear el formulario" />
