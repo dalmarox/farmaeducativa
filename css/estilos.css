@@ -18,6 +18,8 @@ html{
     "main main"
     "footer footer";
     position:center;
+    width: 100%;
+    
     
 }
 .carrousel-slides{
@@ -50,7 +52,7 @@ h5{
 .footer{
     grid-area: footer;
     background-color: rgb(106, 87, 124);
-    width: 100%
+    width: 60%
     
 }
 
@@ -238,7 +240,9 @@ height:50%;
     flex-direction: row;
     align-items: normal;
     justify-content: center;
-    width:100%;
+    width: 100%;
+    
+    
 }
 
 /*.column{
@@ -286,7 +290,7 @@ height:50%;
     grid-column: 2/7;
 }*/
     
-@media screen and (max-width: 768px){
+/*@media screen and (max-width: 500px){
  
 .bodyPastillero{
     display: grid;
@@ -295,7 +299,7 @@ height:50%;
     width: 100%;
 }
 .fondo{
-    /*background-color: rgb(146, 167, 180);*/
+    background-color: rgb(146, 167, 180);
     position: center;
     font-size: 5px;
 }
@@ -310,7 +314,7 @@ height:50%;
     font-size: 12px;
     padding: 10px;
 }
-}
+}*/
 
 .mainpastillero{
     background-color: rgb(202, 125, 164);
@@ -353,6 +357,9 @@ height:50%;
     padding: 0%;
     margin: 0%;
 
+}
+.bodyPastillero{
+    width: 100%;
 }
 .container{
     height: 50%;
