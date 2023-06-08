@@ -18,6 +18,7 @@ html{
     "main main"
     "footer footer";
     position:center;
+    
 }
 .carrousel-slides{
     width: 100%;
@@ -40,6 +41,7 @@ h5{
     align-items: center;
     margin-top: 0px;
     position: center;
+    
 }
 .mainpastillero{
     grid-area: main;
@@ -47,7 +49,7 @@ h5{
 }
 .footer{
     grid-area: footer;
-    background-color: blueviolet;
+    background-color: rgb(106, 87, 124);
     width: 100%
     
 }
@@ -68,13 +70,15 @@ h2{
     background-color: rgb(211, 137, 245);
     /*position: absolute;*/
     top: 100px;
-    margin-right: 100px;
+    
     
     width: 100%;
     left: 0px;
     right: 0px;
     
 }
+.letraAzul{
+    font-size: 50px;}
 .letraRoja{ color: red;}
 .cabeza{ 
     width: 100%;
@@ -85,7 +89,8 @@ p{
     font-weight: bold;
     width:100%;
  }
-.posicion{ 
+.posicion{
+    justify-content: center;
     width: 60%;
     margin-left: 250px;
 
@@ -109,6 +114,7 @@ body{
     flex-direction: column;
     align-items: center;
     align-content: center;
+    justify-content: center;
       
 }
 
@@ -167,7 +173,7 @@ p{
     bottom: 500px; 
 }
 .text{
-    display: flex;
+    /*display: flex;*/
     position: static;
     bottom: 200px;
     text-align: center;
@@ -230,7 +236,8 @@ height:50%;
     display:flex;
     justify-content: space-between;
     flex-direction: row;
-
+    align-items: normal;
+    justify-content: center;
 }
 
 /*.column{
@@ -278,18 +285,18 @@ height:50%;
     grid-column: 2/7;
 }*/
     
-@media screen and (max-width: 320px){
+@media screen and (max-width: 768px){
  
 .bodyPastillero{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 1fr 0.5fr;
-    /*width: 100%;*/
+    width: 100%;
 }
 .fondo{
     /*background-color: rgb(146, 167, 180);*/
     position: center;
-    font-size: 10px;
+    font-size: 5px;
 }
 .fondo nav ul{
     display: flex;
@@ -302,9 +309,6 @@ height:50%;
     font-size: 12px;
     padding: 10px;
 }
-.table-responsive{
-    overflow-x: scroll;
-    overflow-y: hidden;
 }
 
 .mainpastillero{
@@ -316,12 +320,12 @@ height:50%;
     background-color: white;
 }*/
 .tituloprincipal{ display:none;}
-.letraAzul{font-size: 15px;}
+.letraAzul{font-size: 50px;}
 .cabeza{
-    position: center;
+    justify-content: center;
 }
 
-}
+
 /*.container-fluid{
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -333,18 +337,20 @@ height:50%;
 }*/
 .fondo{
     grid-area: header;
-    position:center;
+    justify-content: center;
+    background-color: rgb(194, 66, 226);
 
 }
 .mainpastillero{
     grid-area: main;
     display:flex;
-    
-    
+    justify-content: center;
 }
 .footer{
     grid-area: footer;
     width: 100%;
+    padding: 0%;
+    margin: 0%;
 
 }
 .container{
@@ -353,7 +359,7 @@ height:50%;
     
 }
 .posicion{
-    position: center;
+    justify-content: center;
 }
 
 
