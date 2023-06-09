@@ -9,7 +9,7 @@ html{
 #arriba
 
 
-.container-fluid{
+/*.container-fluid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -21,7 +21,7 @@ html{
     width: 100%;
     
     
-}
+}*/
 .carrousel-slides{
     width: 100%;
     height: 60%;
@@ -241,6 +241,8 @@ height:50%;
     align-items: normal;
     justify-content: center;
     width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
     
     
 }
@@ -360,6 +362,7 @@ height:50%;
 }
 .bodyPastillero{
     width: 100%;
+    
 }
 .container{
     height: 50%;
