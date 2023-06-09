@@ -292,40 +292,14 @@ height:50%;
     grid-column: 2/7;
 }*/
     
-/*@media screen and (max-width: 500px){
- 
-.bodyPastillero{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr 0.5fr;
-    width: 100%;
-}
-.fondo{
-    background-color: rgb(146, 167, 180);
-    position: center;
-    font-size: 5px;
-}
-.fondo nav ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
-.fondo nav ul li{
-    list-style-type: none;
-    font-size: 12px;
-    padding: 10px;
-}
-}*/
+
 
 .mainpastillero{
     background-color: rgb(202, 125, 164);
     color: rgb(34, 15, 116);
 
 } 
-/*.footer{
-    background-color: white;
-}*/
+
 .tituloprincipal{ display:none;}
 .letraAzul{font-size: 50px;}
 .cabeza{
@@ -372,6 +346,26 @@ height:50%;
 .posicion{
     justify-content: center;
 }
+
+@media screen and (max-width:500px) {
+    [class="col-12"] {
+        width: 100%;}  
+        .bodyPastillero{
+            background-color: rgb(213, 191, 235);
+        }
+        .letraAzul{
+            font-size: 15px;
+        }
+        .letraRoja{
+            font-size: 10px;
+        }
+        .img{
+            max-width: 100%;
+            height: auto;
+            align-items: center;
+        }
+        }
+    
 
 
     
