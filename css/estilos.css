@@ -41,8 +41,9 @@ h5{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 0px;
+    margin-top: 80px;
     position: center;
+    top: 0%;
     
 }
 .mainpastillero{
@@ -63,7 +64,7 @@ h1{ background-color: rgb(207, 92, 241);
     text-align: center;
     /*position: absolute;*/
     width: 100%;
-    top: 0px;
+    margin-top: 1s0px;
     right: 0px;
     left: 0px;
 }
@@ -71,7 +72,7 @@ h2{
     text-align: center; 
     background-color: rgb(211, 137, 245);
     /*position: absolute;*/
-    top: 100px;
+    top: 50px;
     
     
     width: 100%;
@@ -80,10 +81,14 @@ h2{
     
 }
 .letraAzul{
-    font-size: 50px;}
-.letraRoja{ color: red;}
+    font-size: 50px;
+    top:10px;
+}
+.letraRoja{ color: red;
+}
 .cabeza{ 
     width: 100%;
+    top: 100px
 }
 p{
     color: rgb(1, 11, 20); 
@@ -151,14 +156,18 @@ ul li{
     flex-direction: row;
     position: relative;
     justify-content: baseline;
-    top: 20px;
+    top: 0px;
     bottom: 20px;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-left: 5px;
     margin-bottom: 0px;
     font-size: 1rem;
     font-weight: 600;
     padding: 5px 5px 
+    
+}
+li:hover {
+background: rgba(231, 238, 127, 0.945)
 }
 p{
     align-items: center;
@@ -171,8 +180,10 @@ p{
     width: 100%;
     /*background-color: rgb(231, 165, 231);*/
     align-items: center;
-    top: 150px;
-    bottom: 500px; 
+    top: 0px;
+    /*bottom: 500px; */
+    margin-top: 0px;
+    
 }
 .text{
     /*display: flex;*/
@@ -364,11 +375,55 @@ height:50%;
             height: auto;
             align-items: center;
         }
+        label{
+            display: block;
+
         }
-    
+        ul{
+            flex-direction:column;
+        }
+        li{ 
+            border-top: 1px solid #fff;
+        }
+        #btn-menu{
+            display: block;
+             width: 30px;
+    height: 30px;
+    position: static;
+    padding: 10px;
+    border-right: 1px solid #fff;
+    margin-top: 0px;
+        }
+        #btn-menu: :checked
+        }
+        
+   .label:hover{
+    cursor: pointer;
+     background: rgba(226, 228, 112, 0.932);
+ }
+
+ }
+#btn-menu{
+    display: none;
+   
+ }  
 
 
-    
+ #btn-menu{
+    display: ;
+ }
+ label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: static;
+    padding: 10px;
+    border-right: 1px solid #fff;
+ }  
+ label:hover{
+    cursor: pointer;
+     background: rgba(0,0,0,0.3);
+ }
 
 
 
