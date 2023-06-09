@@ -394,8 +394,7 @@ height:50%;
     border-right: 1px solid #fff;
     margin-top: 0px;
         }
-        #btn-menu: :checked
-        }
+        
         
    .label:hover{
     cursor: pointer;
@@ -409,9 +408,8 @@ height:50%;
  }  
 
 
- #btn-menu{
-    display: ;
- }
+ 
+ 
  label{
     display: none;
     width: 30px;
