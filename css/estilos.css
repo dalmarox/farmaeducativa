@@ -169,6 +169,7 @@ ul li{
 li:hover {
 background: rgba(231, 238, 127, 0.945)
 }
+
 p{
     align-items: center;
 }
@@ -375,35 +376,30 @@ height:50%;
             height: auto;
             align-items: center;
         }
-        label{
-            display: block;
-
-        }
         ul{
             flex-direction:column;
-        }
-        li{ 
-            border-top: 1px solid #fff;
-        }
-        #btn-menu{
-            display: block;
-             width: 30px;
+            position: absolute;
+            margin-left: -70%;
+
+        }   
+ }
+
+   #btn-menu{
+    display: none;
+   }
+nav label{
+    display: none;
     height: 30px;
-    position: static;
-    padding: 10px;
+    width: 3px;
+    padding: 0%;
     border-right: 1px solid #fff;
     margin-top: 0px;
-        }
-        
-        
-   .label:hover{
-    cursor: pointer;
-     background: rgba(226, 228, 112, 0.932);
- }
+}
+nav label:hover{
+    cursor:pointer;
+    background: rgba(0,0,0,0.3);
+}
 
- }
-
-   
  
 
 
