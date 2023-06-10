@@ -317,7 +317,7 @@ height:50%;
 }
 
 @media screen and (max-width: 768px) {
-    [class="col-12"] {
+    [class="col-6"] {
         width: 100%;}  
         .bodyPastillero{
             background-color:  rgb(213, 191, 235);
@@ -345,10 +345,16 @@ height:50%;
             font-size: 10px;
         }
         .cabeza{
-    
+            display:none;
             justify-content: center;
             width: 60%;
             height: 60%;
+        }
+        .foto{
+            display:flex;
+            justify-content: center;
+            width:fit-content;
+            height: fit-content;
         }
         .redes img{
             width: 20px;
