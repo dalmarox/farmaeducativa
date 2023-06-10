@@ -314,7 +314,7 @@ height:50%;
             margin-left: 120px;
         }
         
-}
+    }
 
 @media screen and (max-width: 768px) {
     [class="col-6"] {
@@ -347,8 +347,8 @@ height:50%;
         .cabeza{
             display:none;
             justify-content: center;
-            width: 60%;
-            height: 60%;
+            width:fit-content;
+            height: fit-content;
         }
         .foto{
             display:flex;
@@ -366,6 +366,7 @@ height:50%;
             margin-left: 120px;
              
       }
+    
 }
 .navbar{
     background-color: rgb(209, 121, 226);
@@ -373,13 +374,3 @@ height:50%;
 .container-fluid{
     background-color: rgb(213, 130, 238);
 }
-
-
- 
-
-
- 
- 
-
-
-
