@@ -9,19 +9,7 @@ html{
 #arriba
 
 
-/*.container-fluid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "header header"
-    "main main"
-    "footer footer";
-    position:center;
-    width: 100%;
-    
-    
-}*/
+
 .carrousel-slides{
     width: 100%;
     height: 60%;
@@ -41,14 +29,15 @@ h5{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 0px;
     position: center;
-    top: 0%;
+    
     
 }
 .mainpastillero{
     grid-area: main;
     background-color: rgb(217, 163, 238);
+    
 }
 .footer{
     grid-area: footer;
@@ -64,7 +53,7 @@ h1{ background-color: rgb(207, 92, 241);
     text-align: center;
     /*position: absolute;*/
     width: 100%;
-    margin-top: 1s0px;
+    margin-top: 20px;
     right: 0px;
     left: 0px;
 }
@@ -82,13 +71,14 @@ h2{
 }
 .letraAzul{
     font-size: 50px;
-    top:10px;
+
 }
 .letraRoja{ color: red;
+
 }
 .cabeza{ 
     width: 100%;
-    top: 100px
+    
 }
 p{
     color: rgb(1, 11, 20); 
@@ -100,17 +90,12 @@ p{
     justify-content: center;
     width: 60%;
     margin-left: 250px;
+    margin-top: 0px;
 
-/*margin-top: 200px;
-    margin-right: 200px;
-    margin-bottom: 200px;
-    margin-left: 300px;*/
 }
 body{ 
     font-family: 'Poppins', sans-serif; 
-    background-color: rgb(214, 175, 240);
-    
-    
+    background-color: rgb(214, 175, 240);      
 }
 
 .tamanio{
@@ -124,8 +109,6 @@ body{
     justify-content: center;
       
 }
-
-
 
 .icon{
     width: 5%;
@@ -193,13 +176,7 @@ p{
     text-align: center;
     align-items: center;
 }
-/*.posicion1{
-    width: 5%;
-    position:absolute;
-    bottom: 500px;
-    left: 500px;
-    align-items: rigth;
-}*/
+
 .redes img{
     width: 40px;
     height: 40px ;
@@ -209,7 +186,7 @@ p{
 .redes{
     position: fixed;
     left: 0px;
-    top: 60px;
+    top: 150px;
 
 }
 form{
@@ -226,15 +203,7 @@ form{
     position:absolute;
     margin:20px;
 }
-/*.table-container{
-    position: relative;
-    bottom: 230px;
-    left: 400px;
-    overflow-x: scroll;
-    }
-.th{
-    background-color:yellow;
-}*/
+
 
 .pais{
     position:relative;
@@ -259,53 +228,6 @@ height:50%;
     
 }
 
-/*.column{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    
-    flex: 20%;
-    width: 30%;
-    height:30%
-
-}*/
-/*.column img{
-    margin-top: 8px;
-    vertical-align:middle;
-    width: 100%;*/
-
-/*.grid-container{
-    border: 2px solid black;
-    display:grid;
-    grid-gap: 10px;
-    row-gap: 10px;
-    column-gap: 10px;
-    height: auto;
-    align-content: center;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    justify-content: space-evenly;
-    justify-items:center;
-    grid-auto-rows: 50px;
-    padding: 10px;
-    background-color: rgb(114, 226, 170);
-    margin: 50px auto;
-    margin-bottom: 700px;    
-}
-  
-
-.item9{
-    grid-column: 2/7;
-}
-.item10{
-    grid-column: 2/7;
-}
-.item11{
-    grid-column: 2/7;
-}*/
-    
-
-
 .mainpastillero{
     background-color: rgb(202, 125, 164);
     color: rgb(34, 15, 116);
@@ -318,16 +240,6 @@ height:50%;
     justify-content: center;
 }
 
-
-/*.container-fluid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "header header"
-    "main main"
-    "footer footer";
-}*/
 .fondo{
     grid-area: header;
     justify-content: center;
@@ -338,6 +250,7 @@ height:50%;
     grid-area: main;
     display:flex;
     justify-content: center;
+    align-content: center;
 }
 .footer{
     grid-area: footer;
@@ -355,15 +268,15 @@ height:50%;
     width: 100%;
     
 }
-.posicion{
-    justify-content: center;
-}
+
 
 @media screen and (max-width:500px) {
     [class="col-12"] {
         width: 100%;}  
         .bodyPastillero{
             background-color: rgb(213, 191, 235);
+            align-items: center;
+            justify-content: center;
         }
         .letraAzul{
             font-size: 15px;
@@ -376,29 +289,85 @@ height:50%;
             height: auto;
             align-items: center;
         }
+        .mainpastillero{
+            grid-area: main;
+            justify-content:center;
+            display: block;
+            
+        }
         ul{
-            flex-direction:column;
-            position: absolute;
-            margin-left: -70%;
-
-        }   
- }
-
-   #btn-menu{
-    display: none;
-   }
-nav label{
-    display: none;
-    height: 30px;
-    width: 3px;
-    padding: 0%;
-    border-right: 1px solid #fff;
-    margin-top: 0px;
+            font-size: 10px;
+        }
+        .cabeza{
+    
+            justify-content: center;
+            width: 60%;
+            height: 60%;
+        }
+        .redes img{
+            width: 20px;
+            height: 20px ;  
+        }
+        .posicion{
+            justify-content: center;
+            width: 80%;
+            margin-left: 120px;
+             
+      }
 }
-nav label:hover{
-    cursor:pointer;
-    background: rgba(0,0,0,0.3);
+
+@media screen and (max-width: 768px) {
+    [class="col-12"] {
+        width: 100%;}  
+        .bodyPastillero{
+            background-color:  rgb(213, 191, 235);
+            align-items: center;
+            justify-content: center;
+        }
+        .letraAzul{
+            font-size: 15px;
+        }
+        .letraRoja{
+            font-size: 10px;
+        }
+        .img{
+            max-width: 100%;
+            height: auto;
+            align-items: center;
+        }
+        .mainpastillero{
+            grid-area: main;
+            justify-content:center;
+            display: block;
+            
+        }
+        ul{
+            font-size: 10px;
+        }
+        .cabeza{
+    
+            justify-content: center;
+            width: 60%;
+            height: 60%;
+        }
+        .redes img{
+            width: 20px;
+            height: 20px ;  
+        }
+        .posicion{
+            justify-content: center;
+            width: 80%;
+            margin-left: 120px;
+             
+      }
 }
+.navbar{
+    background-color: rgb(209, 121, 226);
+}
+.container-fluid{
+    background-color: rgb(213, 130, 238);
+}
+
 
  
 
