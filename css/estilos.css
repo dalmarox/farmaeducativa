@@ -322,17 +322,19 @@ height:50%;
             background-color: goldenrod;
             width: fit-content;
             border-radius: 10px;
-        }
-       
-                  
+        }           
     
         .navbar-nav .dropdown-menu {
-             position: absolute;}
+             position: absolute;
+             width: min-content;
+            
+            }
+            
 
     }
 
 @media screen and (max-width: 768px) {
-    [class="col-6"] {
+    [class="col-12"] {
         width: 100%;}  
         .bodyPastillero{
             background-color:  rgb(213, 191, 235);
@@ -387,7 +389,7 @@ height:50%;
             }
             .navbar-collapse{
                 background-color: goldenrod;
-                width: fit-content;
+                width: min-content;
                 border-radius: 10px;
                 display:block
             }
@@ -398,10 +400,9 @@ height:50%;
                 flex-direction: column;
             }
             .navbar-nav .dropdown-menu {
-                 position: absolute;}
-      
-            
-
+                 position: absolute;
+                width: min-content;
+                }    
         }
   
         .navbar{
