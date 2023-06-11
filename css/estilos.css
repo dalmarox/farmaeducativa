@@ -22,7 +22,7 @@ h5{
 
 
 .fondo{
-    background-color: rgba(215, 149, 245, 0.74);
+    background-color: rgba(233, 224, 236, 0.74);
     grid-area: header;
     display: flex;
     
@@ -41,13 +41,13 @@ h5{
 }
 .footer{
     grid-area: footer;
-    background-color: rgb(106, 87, 124);
+    background-color: rgb(162, 158, 167);
     width: 60%
     
 }
 
 
-h1{ background-color: rgb(207, 92, 241); 
+h1{ background-color: rgb(211, 180, 219); 
     font-size: 50px;
     font-weight: 900; 
     text-align: center;
@@ -73,7 +73,7 @@ h2{
     font-size: 50px;
 
 }
-.letraRoja{ color: red;
+.letraRoja{ color: rgb(14, 1, 1);
 
 }
 .cabeza{ 
@@ -95,7 +95,7 @@ p{
 }
 body{ 
     font-family: 'Poppins', sans-serif; 
-    background-color: rgb(214, 175, 240);      
+    background-color: rgba(198, 181, 236, 0.959);      
 }
 
 .tamanio{
@@ -111,11 +111,11 @@ body{
 }
 
 .icon{
-    width: 5%;
+    width: 10%;
 
 }
 h3{
-    color: rgb(29, 175, 16); 
+    color: rgb(5, 5, 5); 
     text-align: center;
     margin: 40px 40px 20px 40px;
     font-weight: bolder;
@@ -162,10 +162,7 @@ p{
     justify-content: center;
     position: absolute;
     width: 100%;
-    /*background-color: rgb(231, 165, 231);*/
-    align-items: center;
-    top: 0px;
-    /*bottom: 500px; */
+    background-color: rgb(198, 157, 226);
     margin-top: 0px;
     
 }
@@ -175,6 +172,7 @@ p{
     bottom: 200px;
     text-align: center;
     align-items: center;
+ background-color: rgb(198, 157, 226);
 }
 
 .redes img{
@@ -229,7 +227,7 @@ height:50%;
 }
 
 .mainpastillero{
-    background-color: rgb(202, 125, 164);
+    background-color: rgb(198, 157, 226);
     color: rgb(34, 15, 116);
 
 } 
