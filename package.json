@@ -1,0 +1,11 @@
+{
+  "name": "pre-entrega-1-cersosimo-dalma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
