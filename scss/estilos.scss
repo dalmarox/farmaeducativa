@@ -32,9 +32,7 @@ body{
         justify-content: center;
         width: 100%;
         margin-right: 0px;
-        margin-left: 0px;
-        
-        
+        margin-left: 0px;   
     }
       
 }
@@ -105,18 +103,19 @@ h5{
         align-items: center;
         align-content: center;
         justify-content: center;  
-        background: linear-gradient( rgb(187, 27, 192), rgb(198, 157, 226)); 
+        background: linear-gradient( rgb(234, 179, 236), rgb(237, 234, 240)); 
     }
 .icon{
-        width: 10%;
+        width: 10%;    
     }
 h3{
     color: rgb(5, 5, 5); 
     text-align: center;
     margin: 40px 40px 20px 40px;
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 2rem; 
     .tituloprincipal{ display:none;
+                     
     }
 }
 p{
@@ -208,6 +207,7 @@ form{
     position:absolute;
     margin:20px;
 }
+
 .pais{
     position:relative;
     left: 400px;
