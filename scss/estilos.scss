@@ -103,7 +103,7 @@ h5{
         align-items: center;
         align-content: center;
         justify-content: center;  
-        background: linear-gradient( rgb(234, 179, 236), rgb(237, 234, 240)); 
+        background: linear-gradient( rgb(240, 143, 243), rgb(237, 234, 240)); 
     }
 .icon{
         width: 10%;    
@@ -113,7 +113,7 @@ h3{
     text-align: center;
     margin: 40px 40px 20px 40px;
     font-weight: bolder;
-    font-size: 2rem; 
+    font-size: 2rem;
     .tituloprincipal{ display:none;
                      
     }
@@ -124,12 +124,16 @@ p{
     font-weight: bold;
     width:100%;
     align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
  }
  .posicion{
     justify-content: center;
     width: 60%;
     margin-left: 250px;
     margin-top: 0px;
+    
 }
 .tamanio1{
     padding:50px 50px;
@@ -169,13 +173,19 @@ p{
     background-color: rgb(198, 157, 226);
     margin-top: 0px;    
 }
-.text{
-    
+.text{ 
     position: static;
     bottom: 200px;
     text-align: center;
     align-items: center;
     background-color: rgb(198, 157, 226);
+    .input{ margin: 0;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            margin-top: 10px;
+            margin-bottom: 10px;
+}
 }
 .footer{
     grid-area: footer;
@@ -223,6 +233,9 @@ form{
 }
 .navbar{
     background-color: rgb(209, 121, 226);
+    padding-right: 10px;
+    padding-left: 10px;
+    
     
 }
 .container-fluid{

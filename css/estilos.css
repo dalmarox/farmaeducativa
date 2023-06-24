@@ -110,7 +110,7 @@ h5 {
   align-items: center;
   align-content: center;
   justify-content: center;
-  background: linear-gradient(rgb(234, 179, 236), rgb(237, 234, 240));
+  background: linear-gradient(rgb(240, 143, 243), rgb(237, 234, 240));
 }
 
 .icon {
@@ -134,6 +134,9 @@ p {
   font-weight: bold;
   width: 100%;
   align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px;
 }
 
 .posicion {
@@ -189,6 +192,14 @@ ul li:hover {
   align-items: center;
   background-color: rgb(198, 157, 226);
 }
+.text .input {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 .footer {
   grid-area: footer;
@@ -243,6 +254,8 @@ form {
 
 .navbar {
   background-color: rgb(209, 121, 226);
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .container-fluid {
