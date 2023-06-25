@@ -9,7 +9,7 @@ html {
 
 .btn, .btn-ligth, .btn-info, .btn-warning, .btn-danger, .btn-succsess, .btn-secondary, .btn-primary {
   width: 200px;
-  height: 50px;
+  height: 80px;
   border: solid 1px black;
 }
 
@@ -248,7 +248,7 @@ ul li:hover {
 .redes {
   position: fixed;
   left: 0px;
-  top: 300px;
+  top: 250px;
 }
 .redes img {
   width: 40px;

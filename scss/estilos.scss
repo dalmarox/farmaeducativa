@@ -7,7 +7,7 @@ html{
 }
 .btn{
     width:200px;
-    height:50px;
+    height:80px;
     border:solid 1px black;
 }
 .btn-primary{
@@ -212,6 +212,7 @@ p{
     text-align: center;
     align-items: center;
     background-color: rgb(198, 157, 226);
+
     .input{ margin: 0;
             font-family: inherit;
             font-size: inherit;
@@ -232,7 +233,7 @@ p{
 .redes{
     position: fixed;
     left: 0px;
-    top: 300px;
+    top: 250px;
     img{ width: 40px;
         height: 40px;
     }
