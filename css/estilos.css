@@ -7,6 +7,40 @@ html {
   padding: 0;
 }
 
+.btn, .btn-ligth, .btn-info, .btn-warning, .btn-danger, .btn-succsess, .btn-secondary, .btn-primary {
+  width: 200px;
+  height: 50px;
+  border: solid 1px black;
+}
+
+.btn-primary {
+  background-color: blue;
+}
+
+.btn-secondary {
+  background-color: grey;
+}
+
+.btn-succsess {
+  background-color: green;
+}
+
+.btn-danger {
+  background-color: lightcoral;
+}
+
+.btn-warning {
+  background-color: yellow;
+}
+
+.btn-info {
+  background-color: aqua;
+}
+
+.btn-ligth {
+  background-color: aliceblue;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: rgba(198, 181, 236, 0.959);

@@ -5,6 +5,39 @@ html{
     margin: 0;
     padding: 0;
 }
+.btn{
+    width:200px;
+    height:50px;
+    border:solid 1px black;
+}
+.btn-primary{
+    @extend .btn;
+    background-color: blue;
+}
+.btn-secondary{
+    @extend .btn;
+    background-color:grey;
+}
+.btn-succsess{
+    @extend .btn;
+    background-color: green;
+}
+.btn-danger{
+    @extend .btn;
+    background-color: lightcoral;
+}
+.btn-warning{
+    @extend .btn;
+    background-color: yellow;
+}
+.btn-info{
+    @extend .btn;
+    background-color: aqua;
+}
+.btn-ligth{
+    @extend .btn;
+    background-color:aliceblue;
+}
 body{ 
     font-family: 'Poppins', sans-serif; 
     background-color: rgba(198, 181, 236, 0.959); 
