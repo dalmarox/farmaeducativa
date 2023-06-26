@@ -2,8 +2,8 @@ html{
     font-size: 100%;
 }
 *{
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
 }
 .btn{
     width:200px;
@@ -55,7 +55,7 @@ body{
     }
 }
 .fondo{
-    background-color: rgba(233, 224, 236, 0.74);
+
     grid-area: header;
     display: flex;
     flex-direction: row;
@@ -74,7 +74,7 @@ body{
         justify-content: center;
         width: 100%;
         margin-right: 0px;
-        margin-left: 0px;   
+        margin-left: 0px;
     }
       
 }
@@ -85,7 +85,7 @@ a{ &:arriba{
 	}
 }
 }
-h1{ background-color: rgb(211, 180, 219); 
+h1{ /*background-color: rgb(211, 180, 219);*/
     font-size: 50px;
     font-weight: 900; 
     text-align: center;
@@ -96,7 +96,7 @@ h1{ background-color: rgb(211, 180, 219);
 }
 h2{
     text-align: center; 
-    background-color: rgb(211, 137, 245);
+/*background-color: rgb(211, 137, 245);*/
     top: 50px;
     width: 100%;
     left: 0px;
@@ -112,16 +112,16 @@ h2{
 }
 .cabeza{
     justify-content: center;
-    width: 100%;
+    /*width: 100%;*/
 }
 .mainpastillero{
     background-color: rgb(198, 157, 226);
-    color: rgb(34, 15, 116);
+     color: rgb(34, 15, 116);
     grid-area: main;
     display:flex;
     justify-content: center;
     align-content: center;
-    background-color: rgb(217, 163, 238);
+    background:linear-gradient( rgb(209, 145, 235),rgb(244, 241, 245));
     
     
     .row{
@@ -146,10 +146,10 @@ h5{
         align-items: center;
         align-content: center;
         justify-content: center;  
-        background: linear-gradient( rgb(240, 143, 243), rgb(237, 234, 240)); 
+        
     }
 .icon{
-        width: 10%;    
+        width: 15%;    
     }
 h3{
     color: rgb(5, 5, 5); 
@@ -221,7 +221,7 @@ p{
     bottom: 200px;
     text-align: center;
     align-items: center;
-    background-color: rgb(198, 157, 226);
+    
 
     .input{ margin:30px;
             font-family: inherit;
@@ -238,16 +238,15 @@ p{
     background-color: rgb(162, 158, 167);
     width: 100%;
     grid-area: footer;
-    /*width: 60%;*/
     padding: 0%;
     margin: 0%;
 }
 .redes{
     position: fixed;
-    left: 0px;
+    left: 10px;
     top: 250px;
-    img{ width: 40px;
-        height: 40px;
+    img{ width: 50px;
+        height: 50px;
     }
 }
 form{
@@ -257,7 +256,7 @@ form{
     left: 0px;
     bottom: 100px;
     margin-bottom: 100px;
-    margin-left: 50px;  
+    margin-left: 50px;
 }
 .renglon{
     position:absolute;
@@ -275,14 +274,19 @@ form{
 }
 .container{
     height: 50%;
-    width: 100%;   
+    width: 100%;
+    margin-right: 50px;
 }
 .navbar{
     background-color: rgb(209, 121, 226);
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-right: 10px;
-    margin-left: 10px;    
+    padding-top: 0px;
+    /*padding-right: 10px;*/
+    padding-bottom: 0px;
+    /*padding-left: 10px;*/
+    margin-top:0px;
+    /*margin-right: 10px;*/
+    /*margin-left: 10px;*/
+    margin-bottom: 0px;
 }
 .container-fluid{
     background-color: rgb(213, 130, 238);
