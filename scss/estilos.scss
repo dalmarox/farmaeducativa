@@ -9,6 +9,7 @@ html{
     width:200px;
     height:80px;
     border:solid 1px black;
+    margin-right: 2px;
 }
 .btn-primary{
     @extend .btn;
