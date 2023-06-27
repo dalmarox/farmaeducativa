@@ -8,10 +8,9 @@ html {
 }
 
 .btn, .btn-ligth, .btn-info, .btn-warning, .btn-danger, .btn-succsess, .btn-secondary, .btn-primary {
-  width: 200px;
-  height: 80px;
+  /*width:200px;
+  height:80px;*/
   border: solid 1px black;
-  margin-right: 2px;
 }
 
 .btn-primary {
