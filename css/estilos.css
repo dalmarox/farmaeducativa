@@ -8,8 +8,6 @@ html {
 }
 
 .btn, .btn-ligth, .btn-info, .btn-warning, .btn-danger, .btn-succsess, .btn-secondary, .btn-primary {
-  /*width:200px;
-  height:80px;*/
   border: solid 1px black;
 }
 
@@ -83,7 +81,7 @@ a:arriba .carrousel-slides {
   height: 60%;
 }
 
-h1 { /*background-color: rgb(211, 180, 219);*/
+h1 {
   font-size: 50px;
   font-weight: 900;
   text-align: center;
@@ -95,7 +93,6 @@ h1 { /*background-color: rgb(211, 180, 219);*/
 
 h2 {
   text-align: center;
-  /*background-color: rgb(211, 137, 245);*/
   top: 50px;
   width: 100%;
   left: 0px;
@@ -113,7 +110,6 @@ h2 {
 
 .cabeza {
   justify-content: center;
-  /*width: 100%;*/
 }
 
 .mainpastillero {
@@ -292,12 +288,8 @@ form {
 .navbar {
   background-color: rgb(209, 121, 226);
   padding-top: 0px;
-  /*padding-right: 10px;*/
   padding-bottom: 0px;
-  /* padding-left: 10px;*/
   margin-top: 0px;
-  /*margin-right: 10px;*/
-  /* margin-left: 10px;*/
   margin-bottom: 0px;
 }
 
