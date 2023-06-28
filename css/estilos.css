@@ -121,7 +121,6 @@ h2 {
   color: rgb(34, 15, 116);
   grid-area: main;
   display: flex;
-  justify-content: center;
   align-content: center;
   background: linear-gradient(rgb(209, 145, 235), rgb(244, 241, 245));
 }
