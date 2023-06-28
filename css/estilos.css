@@ -201,7 +201,7 @@ ul li {
   top: 0px;
   bottom: 20px;
   margin-top: 0px;
-  margin-left: 10px;
+  margin-left: 0px;
   margin-bottom: 0px;
   font-size: 1rem;
   font-weight: 600;
@@ -250,7 +250,7 @@ ul li:hover {
 .redes {
   position: fixed;
   left: 10px;
-  top: 250px;
+  top: 450px;
 }
 .redes img {
   width: 50px;
@@ -294,10 +294,10 @@ form {
   padding-top: 0px;
   /*padding-right: 10px;*/
   padding-bottom: 0px;
-  /*padding-left: 10px;*/
+  /* padding-left: 10px;*/
   margin-top: 0px;
   /*margin-right: 10px;*/
-  /*margin-left: 10px;*/
+  /* margin-left: 10px;*/
   margin-bottom: 0px;
 }
 
