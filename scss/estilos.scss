@@ -302,11 +302,10 @@ form{
     
 }
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:320px) {
     [class="col-12"] {
         width: 100%;
-    }
-        
+    } 
         .bodyPastillero{
             background-color: $background-color_13;
             align-items: center;

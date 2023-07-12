@@ -310,7 +310,7 @@ form {
   background-color: rgb(213, 191, 235);
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 320px) {
   [class=col-12] {
     width: 100%;
   }
