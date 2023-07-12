@@ -237,10 +237,10 @@ ul li:hover {
 .text .input {
   margin: 30px;
   font-family: inherit;
-  font-size: inherit;
+  /*font-size: inherit;*/
   line-height: inherit;
   margin-top: 10px;
-  margin-right: 30px;
+  margin-right: 40px;
   margin-bottom: 10px;
   margin-left: 30px;
 }
@@ -310,7 +310,7 @@ form {
   background-color: rgb(213, 191, 235);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   [class=col-12] {
     width: 100%;
   }
@@ -361,7 +361,7 @@ form {
   .navbar-collapse {
     background-color: rgb(236, 238, 97);
     width: fit-content;
-    border-radius: 10px;
+    border-radius: 20px;
   }
   .navbar-nav .dropdown-menu {
     position: absolute;

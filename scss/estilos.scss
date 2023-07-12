@@ -224,24 +224,26 @@ p{
     margin-top: 0px;    
 }
 .text{ 
-    position: static;
+    position:static;
     bottom: 200px;
     text-align: center;
     align-items: center;
     
+    
 
     .input{ margin:30px;
             font-family: $font-family_3;
-            font-size: inherit;
+            /*font-size: inherit;*/
             line-height: inherit;
             margin-top: 10px;
-            margin-right: 30px;
+            margin-right: 40px;
             margin-bottom: 10px;
             margin-left: 30px;
 }
     .card{
         background-color:transparent;
     }
+
 }
 .footer{
     grid-area: footer;
@@ -290,19 +292,20 @@ form{
 .navbar{
     background-color: $background-color_12;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 0px;  
     margin-top:0px;
     margin-bottom: 0px;
 }
 .container-fluid{
     background-color: $background-color_14;
     
+    
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:420px) {
     [class="col-12"] {
         width: 100%;
-    }  
+    }
         
         .bodyPastillero{
             background-color: $background-color_13;
@@ -331,11 +334,12 @@ form{
         }
         
         .cabeza{
-    
+            
             justify-content: center;
             width: 60%;
             height: 60%;
         }
+        
         .redes img{
             width: 20px;
             height: 20px ;  
@@ -355,7 +359,7 @@ form{
         .navbar-collapse{
             background-color: $background-color_15;
             width: fit-content;
-            border-radius: 10px;
+            border-radius: 20px;
         }           
     
         .navbar-nav .dropdown-menu {
@@ -363,6 +367,7 @@ form{
              width: min-content;
             
             }
+       
 }
 @media screen and (max-width:500px) {
     [class="col-12"] {
