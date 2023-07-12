@@ -93,6 +93,7 @@ h1{
     text-align: center;
     width: 100%;
     margin-top: 20px;
+    margin-bottom: 30px;
     right: 0px;
     left: 0px;
 }
@@ -123,7 +124,6 @@ h2{
     align-content: center;
     background:linear-gradient($background-color_10,rgb(248, 239, 248));
     .row{
-        display: flex;
         justify-content: space-between;
         flex-direction: row;
         align-items: normal;
@@ -282,11 +282,11 @@ form{
     width: 50%;
     height:50%;
 }
-.container{
+/*.container{
     height: 50%;
     width: 100%;
     margin-right: 50px;
-}
+}*/
 .navbar{
     background-color: $background-color_12;
     padding-top: 0px;
@@ -295,15 +295,82 @@ form{
     margin-bottom: 0px;
 }
 .container-fluid{
-    background-color: $background-color_13;
+    background-color: $background-color_14;
+    
 }
 
+@media screen and (max-width:320px) {
+    [class="col-12"] {
+        width: 100%;
+    }  
+        
+        .bodyPastillero{
+            background-color: $background-color_13;
+            align-items: center;
+            justify-content: center;
+        }
+        .letraAzul{
+            font-size: 20px;
+        }
+        .letraRoja{
+            font-size: 15px;
+        }
+        .img{
+            max-width: 100%;
+            height: auto;
+            align-items: center;
+        }
+        .mainpastillero{
+            grid-area: main;
+            justify-content:center;
+            display: block;
+            
+        }
+        ul{
+            font-size: 10px;
+        }
+        
+        .cabeza{
+    
+            justify-content: center;
+            width: 60%;
+            height: 60%;
+        }
+        .redes img{
+            width: 20px;
+            height: 20px ;  
+        }
+        .posicion{
+            justify-content: center;
+            width: 60%;
+            height: 60%;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        
+        .navbar-toggler-icon{
+            background-color: $background-color_7;
+            margin-right: 10px ;
+        }
+        .navbar-collapse{
+            background-color: $background-color_15;
+            width: fit-content;
+            border-radius: 10px;
+        }           
+    
+        .navbar-nav .dropdown-menu {
+             position: absolute;
+             width: min-content;
+            
+            }
+}
 @media screen and (max-width:500px) {
     [class="col-12"] {
         width: 100%;
     }  
+        
         .bodyPastillero{
-            background-color: $background-color_14;
+            background-color: $background-color_13;
             align-items: center;
             justify-content: center;
         }
@@ -361,7 +428,7 @@ form{
              width: min-content;
             
             }
-}
+}   
 @media screen and (max-width: 768px) {
     [class="col-12"] {
         width: 100%;}  
@@ -371,7 +438,7 @@ form{
             justify-content: center;
         }
         .letraAzul{
-            font-size: 15px;
+            font-size: 35px;
         }
         .letraRoja{
             font-size: 10px;

@@ -87,6 +87,7 @@ h1 {
   text-align: center;
   width: 100%;
   margin-top: 20px;
+  margin-bottom: 30px;
   right: 0px;
   left: 0px;
 }
@@ -121,7 +122,6 @@ h2 {
   background: linear-gradient(rgb(198, 157, 226), rgb(248, 239, 248));
 }
 .mainpastillero .row {
-  display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: normal;
@@ -293,12 +293,11 @@ form {
   height: 50%;
 }
 
-.container {
-  height: 50%;
-  width: 100%;
-  margin-right: 50px;
-}
-
+/*.container{
+    height: 50%;
+    width: 100%;
+    margin-right: 50px;
+}*/
 .navbar {
   background-color: rgb(209, 121, 226);
   padding-top: 0px;
@@ -308,15 +307,73 @@ form {
 }
 
 .container-fluid {
-  background-color: rgba(220, 173, 235, 0.788);
+  background-color: rgb(213, 191, 235);
 }
 
+@media screen and (max-width: 320px) {
+  [class=col-12] {
+    width: 100%;
+  }
+  .bodyPastillero {
+    background-color: rgba(220, 173, 235, 0.788);
+    align-items: center;
+    justify-content: center;
+  }
+  .letraAzul {
+    font-size: 20px;
+  }
+  .letraRoja {
+    font-size: 15px;
+  }
+  .img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  .mainpastillero {
+    grid-area: main;
+    justify-content: center;
+    display: block;
+  }
+  ul {
+    font-size: 10px;
+  }
+  .cabeza {
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+  }
+  .redes img {
+    width: 20px;
+    height: 20px;
+  }
+  .posicion {
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .navbar-toggler-icon {
+    background-color: aliceblue;
+    margin-right: 10px;
+  }
+  .navbar-collapse {
+    background-color: rgb(236, 238, 97);
+    width: fit-content;
+    border-radius: 10px;
+  }
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+    width: min-content;
+  }
+}
 @media screen and (max-width: 500px) {
   [class=col-12] {
     width: 100%;
   }
   .bodyPastillero {
-    background-color: rgb(213, 191, 235);
+    background-color: rgba(220, 173, 235, 0.788);
     align-items: center;
     justify-content: center;
   }
@@ -379,7 +436,7 @@ form {
     justify-content: center;
   }
   .letraAzul {
-    font-size: 15px;
+    font-size: 35px;
   }
   .letraRoja {
     font-size: 10px;
