@@ -51,9 +51,13 @@ html{
 body{ 
     font-family: $font-family_1; 
     background-color: $background-color_10;
+    width: 100vw;
     
     .bodyPastillero{
         width: 100%;
+    }
+    .container-fluid{
+        background-color: $background-color_14;
     }
 }
 .fondo{
@@ -284,11 +288,7 @@ form{
     width: 50%;
     height:50%;
 }
-/*.container{
-    height: 50%;
-    width: 100%;
-    margin-right: 50px;
-}*/
+
 .navbar{
     background-color: $background-color_12;
     padding-top: 0px;
@@ -296,16 +296,13 @@ form{
     margin-top:0px;
     margin-bottom: 0px;
 }
-.container-fluid{
-    background-color: $background-color_14;
-    
-    
-}
+
 
 @media screen and (max-width:320px) {
     [class="col-12"] {
         width: 100%;
-    } 
+    }
+       
         .bodyPastillero{
             background-color: $background-color_13;
             align-items: center;

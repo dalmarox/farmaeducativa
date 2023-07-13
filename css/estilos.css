@@ -48,9 +48,13 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background-color: rgb(198, 157, 226);
+  width: 100vw;
 }
 body .bodyPastillero {
   width: 100%;
+}
+body .container-fluid {
+  background-color: rgb(213, 191, 235);
 }
 
 .fondo {
@@ -293,21 +297,12 @@ form {
   height: 50%;
 }
 
-/*.container{
-    height: 50%;
-    width: 100%;
-    margin-right: 50px;
-}*/
 .navbar {
   background-color: rgb(209, 121, 226);
   padding-top: 0px;
   padding-bottom: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-}
-
-.container-fluid {
-  background-color: rgb(213, 191, 235);
 }
 
 @media screen and (max-width: 320px) {
