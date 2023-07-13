@@ -338,6 +338,7 @@ form {
     width: 60%;
     height: 60%;
     align-items: center;
+    margin-left: 30px;
   }
   .redes img {
     width: 20px;
@@ -477,7 +478,7 @@ form {
     width: fit-content;
     height: fit-content;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .foto {
     display: flex;
@@ -493,7 +494,7 @@ form {
   .posicion {
     justify-content: center;
     width: 80%;
-    margin-left: 120px;
+    margin-left: 100px;
   }
   .navbar-toggler-icon {
     background-color: aliceblue;
