@@ -313,7 +313,7 @@ form{
             font-size: 35px;
         }
         .letraRoja{
-            font-size: 15px;
+            font-size: 20px;
         }
         .img{
             max-width: 100%;
@@ -335,6 +335,8 @@ form{
             justify-content: center;
             width: 60%;
             height: 60%;
+            align-items: center;
+            margin-left: 30px;
         }
         
         .redes img{
@@ -386,7 +388,7 @@ form{
             font-size: 35px;
         }
         .letraRoja{
-            font-size: 15px;
+            font-size: 20px;
         }
         .img{
             max-width: 100%;
@@ -408,6 +410,8 @@ form{
             justify-content: center;
             width: 60%;
             height: 60%;
+            align-items: center;
+            margin-left: 30px;
             
         }
         .redes img{
@@ -460,7 +464,11 @@ form{
             font-size: 35px;
         }
         .letraRoja{
-            font-size: 10px;
+            font-size: 20px;
+        }
+        .column{
+            text-align: center;
+            margin-left: 250px;
         }
         .img{
             max-width: 100%;
@@ -481,6 +489,8 @@ form{
             justify-content: center;
             width:fit-content;
             height: fit-content;
+            align-items: center;
+            margin-left: 30px;
 
         }
         .foto{
@@ -508,7 +518,7 @@ form{
                 background-color: $background-color_15;
                 width: min-content;
                 border-radius: 10px;
-                display:block
+                display:block;
             }
            
                       
