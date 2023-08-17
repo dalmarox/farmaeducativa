@@ -1,7 +1,3 @@
-// Proyecto llamado Farmaeducativa.
-
-let div = document.getElementById("aplicacion");
-console.log(div. innerHTML);
 
 function identificarUsuarios() {
   let nombre = prompt("Ingrese su nombre");
