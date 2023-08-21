@@ -1,10 +1,7 @@
-export const pastillero =[
+export const remedio =[
     {
         id:1,
         remedio,
-        opcion,
-        horario,
-        img,
 
     }
 ]
