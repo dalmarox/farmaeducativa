@@ -65,61 +65,107 @@
         </div>
         <section class="text">
             <div class="tamanio">
-                <h3 class="animate__animated animate__lightSpeedInRight">TOMA UNA FOTO DEL MEDICAMENTO</h3>
-                <video id="video"></video>
-                <button id="startbutton">Toma aquí una foto del medicamento</button>
-                <canvas id="canvas"></canvas>
-                <img src="../imagenes\pastillas.gif" alt="medicinas" class="icon">
+                <h3 class="animate__animated animate__lightSpeedInRight">INGRESA TUS MEDICAMENTOS AL PASTILLERO</h3>
+                
             </div>
         </section>
       <section class="text">
         
             <div class="row">
-                <div class="col-sm-6 ">
+                <div class="col-sm-3">
                   
-                    <label for="droga">Droga o Principio activo</label>
-                    <input type="text" name="droga" id="droga">
+                    <label for="remedio">Medicamento recetado</label>
+                    <input type="text" name="remedio"value="" id="remedio">
+                    <br><button id="btnEnviar">Enviar</button></br>
+
                 
-                    <label for="miligramos">Cantidad por comprimido en mg</label>
-                    <input type="number" name="miligramos" id="miligramos">
+                    <label for="opcion">Ingresa el dia</label>
+                    <input type="dia" name="opcion" value="" id="opcion">
+                    <button id="btnEnviar">Enviar</button>
+
                 
-                    <label for="comprimido">Cantidad de comprimidos por toma</label>
-                    <input type="number" name="comprimido" id="comprimido">
+                    <label for="horario">Ingresa cuántos comprimidos tomarás cada vez</label>
+                    <input type="number" name="comprimido" value="comprimido" id="comprimido">
+                    <button id="btnEnviar">Enviar</button>
+
+                
+                    <label for="hora">Ingresa la hora en la que tomarás tu medicamento</label>
+                    <input type="time" name="hora" value="hora" id="hora">
+                    <button id="btnEnviar">Enviar</button>
+
                 
                     <label for="hora">¿A qué hora debe tomar su medicación?</label>
-                    <input type="time" name="hora" id="hora">
+                    <input type="time" name="hora" value="hora" id="hora">
+                    <button id="btnEnviar">Enviar</button>
+
                 
                     <label for="hora">¿A qué hora debe tomar su medicación?</label>
-                    <input type="time" name="hora" id="hora">
+                    <input type="time" name="hora" value="hora" id="hora">
+                    <button id="btnEnviar">Enviar</button>
+
                 
                     <label for="hora">¿A qué hora debe tomar su medicación?</label>
-                    <input type="time" name="hora" id="hora">
-                
-                    <label for="hora">¿A qué hora debe tomar su medicación?</label>
-                    <input type="time" name="hora" id="hora">
-                
-                
-                <input type="submit" value="Enviar">
+                    <input type="time" name="hora" value=""hora id="hora">
+                    <input type="submit" value="Enviar">
+
                 
             </form>
             </div>
             
-            <div class="col-sm-6">Pastillero
-                <div class="row">
-                <button type="button" class="btn btn-primary">LUNES</button>
-                <button type="button" class="btn btn-secondary">MARTES</button>
-                <button type="button" class="btn btn-success">MIÉRCOLES</button>
-                <button type="button" class="btn btn-danger">JUEVES</button>
-                <button type="button" class="btn btn-warning">VIERNES</button>
-                <button type="button" class="btn btn-info">SÁBADO</button>
-                <button type="button" class="btn btn-light">DOMINGO</button>
-
-
-
-            
-            </div>
             
         </div>
+      </section>
+      <section  class="row" class="col-ms-12 col-md-2 d-flex justify-content-center">
+      <div class="card text-bg-primary mb-3" style="max-width: 14rem;">
+        <div class="card-header">LUNES</div>
+        <div class="card-body">
+          <h5 class="card-title"></title></h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-bg-secondary mb-3" style="max-width: 14rem;">
+        <div class="card-header">MARTES</div>
+        <div class="card-body">
+          <h5 class="card-title">Secondary card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-bg-success mb-3" style="max-width: 14rem;">
+        <div class="card-header">MIÉRCOLES</div>
+        <div class="card-body">
+          <h5 class="card-title">Success card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-bg-danger mb-3" style="max-width: 14rem;">
+        <div class="card-header">JUEVES</div>
+        <div class="card-body">
+          <h5 class="card-title">Danger card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-bg-warning mb-3" style="max-width: 14rem;">
+        <div class="card-header">VIERNES</div>
+        <div class="card-body">
+          <h5 class="card-title">Warning card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-bg-info mb-3" style="max-width: 14rem;">
+        <div class="card-header">SÁBADO</div>
+        <div class="card-body">
+          <h5 class="card-title">Info card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    
+      <div class="card text-bg-aliceblue mb-3" style="max-width: 14rem;">
+        <div class="card-header">DOMINGO</div>
+        <div class="card-body">
+          <h5 class="card-title">Dark card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
       </section>
     </main>
     <footer class="footer">
@@ -135,5 +181,16 @@
     </footer>
 
    </div>
+   <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js"></script
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   
+  <script type="module" src="./db/remedio.js"></script>
+  <script type="module" src="./db/usuarios.js"></script>
+  <script type="module" src="./js/main.js"></script>
+  <script type="module" src=".js/administrador.js"></script>
+  <script type="module" src=".js/pastillero.js"></script>
+  <script type="module" src=".js/usuario.js"></script>
 </body>
 </html>

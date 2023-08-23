@@ -1,5 +1,5 @@
-
-function identificarUsuarios() {
+div 
+/*function identificarUsuarios() {
   let nombre = prompt("Ingrese su nombre");
   let apellido = prompt("Ingrese su apellido");
 
@@ -410,8 +410,9 @@ function registrarPresion() {
       break;
     /*default:
       alert("No válida");
-      break;*/
+      break;
   }
+
   const registrarOtraPresion = confirm(
     "Desea ingresar otro registro de presión arterial?"
   );
@@ -440,5 +441,5 @@ function registrarPresion() {
   }
   const fecha= new Date()
   console.log(fecha);
-  console.log(fecha.toLocaleString());
+  console.log(fecha.toLocaleString());*/
  
